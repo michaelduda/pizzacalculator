@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="People" representedClassName="People" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="pieces" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Pizza" representedClassName="Pizza" syncable="YES" codeGenerationType="class">
+        <attribute name="diameter" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="pieces" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Pizza" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="People" positionX="-63" positionY="18" width="128" height="74"/>
+    </elements>
+</model>
